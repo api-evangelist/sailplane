@@ -1,8 +1,23 @@
 aid: sailplane
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sailplane.png
 name: Sailplane
-description: 'Sailplane is a company surfaced as a portfolio company of true-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Sailplane is an early-stage, true-ventures-backed AI startup building agentic
+  automation. As of July 2026 the company is in stealth / pre-launch: sailplane.ai serves only a
+  teaser page rendering an agent execution trace ("A signal has been sent. An agent is listening.
+  The trace begins here.") describing plan initiation, support agents, branch generation, trajectory
+  proposal/approval, and execution. No public API, developer docs, SDKs, or well-known endpoints are
+  published yet. This profile remains a lead pending a public developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/sailplane/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Artificial Intelligence
+- AI Agents
+- Agentic
+- Automation
+- Stealth
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sailplane-domain-security.yml
 - type: Website
   url: https://www.sailplane.ai/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
